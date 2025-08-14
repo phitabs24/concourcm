@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Attempts | Prepa Concour</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>My Attempts</h1>
+        <nav aria-label="Primary">
+          <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="biology.html">Biology</a></li>
+            <li><a href="chemistry.html">Chemistry</a></li>
+            <li><a href="physics.html">Physics</a></li>
+            <li><a href="general-knowledge.html">General Knowledge</a></li>
+            <li><a href="french.html">French</a></li>
+            <li><a href="exam.html">Full Exam</a></li>
+          </ul>
+        </nav>
+        <div class="auth-controls" style="display:none; margin-top: .5rem; display: flex; gap: .5rem; align-items: center; flex-wrap: wrap;">
+          <span> Hello, <strong id="user-name">Guest</strong> </span>
+          <button id="signin" class="btn" type="button">Sign in with Google</button>
+          <button id="signout" class="btn" type="button" style="display:none;">Sign out</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section>
+        <p id="signed-out-msg" style="display:none;">Please sign in to view your attempts.</p>
+        <div id="attempts-wrap" style="display:none;">
+          <h2>Your recent attempts</h2>
+          <div id="attempts-list" class="card-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Prepa Concour</p>
+      </div>
+    </footer>
+
+    <script type="module" src="assets/js/firebase.js"></script>
+    <script>
+      // Gate: redirect unauthenticated users to login page
+      const gate = () => {
+        if (!window.fb) return;
+        const { auth, onAuthStateChanged } = window.fb;
+        onAuthStateChanged(auth, (user) => {
+          if (!user) window.location.href = 'login.html';
+        });
+      };
+      if (window.fb) gate(); else window.addEventListener('firebase-ready', gate, { once: true });
+    </script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      const attemptsWrap = document.getElementById('attempts-wrap');
+      const attemptsList = document.getElementById('attempts-list');
+      const signedOutMsg = document.getElementById('signed-out-msg');
+
+      const renderAttempts = (items) => {
+        attemptsList.innerHTML = '';
+        if (!items || items.length === 0) {
+          attemptsList.innerHTML = '<p>No attempts yet. Take a quiz to see your history here.</p>';
+          return;
+        }
+        // Render each attempt as a small card
+        items.forEach((a) => {
+          const when = a.finishedAt?.toDate ? a.finishedAt.toDate() : (a.clientFinishedAt ? new Date(a.clientFinishedAt) : null);
+          const dt = when ? when.toLocaleString() : '—';
+          const card = document.createElement('article');
+          card.className = 'card';
+          card.innerHTML = `
+            <h3>${a.subject || 'Unknown Subject'}</h3>
+            <p><strong>Score:</strong> ${a.correct ?? 0} / ${a.total ?? 0}</p>
+            <p><strong>Date:</strong> ${dt}</p>
+          `;
+          attemptsList.appendChild(card);
+        });
+      };
+
+      const updateAuthUI = (user) => {
+        const nameEl = document.getElementById('user-name');
+        const inBtn = document.getElementById('signin');
+        const outBtn = document.getElementById('signout');
+        if (nameEl && inBtn && outBtn) {
+          if (user) { nameEl.textContent = user.displayName || user.email || 'User'; inBtn.style.display = 'none'; outBtn.style.display = ''; }
+          else { nameEl.textContent = 'Guest'; inBtn.style.display = ''; outBtn.style.display = 'none'; }
+        }
+        if (user) {
+          signedOutMsg.style.display = 'none';
+          attemptsWrap.style.display = '';
+        } else {
+          // Redirect signed-out users to login page
+          window.location.href = 'login.html';
+        }
+      };
+
+      const loadAttempts = async () => {
+        if (!window.fb || !window.fb.getRecentAttempts) return;
+        const items = await window.fb.getRecentAttempts(20);
+        renderAttempts(items);
+      };
+
+      const boot = () => {
+        if (!window.fb) return;
+        const { auth, onAuthStateChanged } = window.fb;
+        onAuthStateChanged(auth, async (user) => {
+          updateAuthUI(user);
+          if (user) await loadAttempts();
+        });
+      };
+
+      if (window.fb) boot(); else window.addEventListener('firebase-ready', boot, { once: true });
+    </script>
+  </body>
+</html>

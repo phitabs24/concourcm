@@ -17,13 +17,18 @@
           <ul class="nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="biology.html">Biology</a></li>
-            <li><a href="chemistry.html" aria-current="page">Chemistry</a></li>
             <li><a href="physics.html">Physics</a></li>
             <li><a href="general-knowledge.html">General Knowledge</a></li>
             <li><a href="french.html">French</a></li>
             <li><a href="exam.html">Full Exam</a></li>
+            <li><a id="nav-attempts" href="attempts.html">My Attempts</a></li>
           </ul>
         </nav>
+        <div class="auth-controls" style="display:none; margin-top: .5rem; display: flex; gap: .5rem; align-items: center; flex-wrap: wrap;">
+          <span> Hello, <strong id="user-name">Guest</strong> </span>
+          <button id="signin" class="btn" type="button">Sign in with Google</button>
+          <button id="signout" class="btn" type="button" style="display:none;">Sign out</button>
+        </div>
       </div>
     </header>
 
@@ -43,6 +48,31 @@
       <section id="results" style="margin-top: 1rem;"></section>
     </main>
 
+    <script type="module" src="assets/js/firebase.js"></script>
+<script>
+  // Gate: redirect unauthenticated users to login page
+  const gate = () => {
+    if (!window.fb) return;
+    const { auth, onAuthStateChanged } = window.fb;
+    onAuthStateChanged(auth, (user) => {
+      if (!user) window.location.href = 'login.html';
+    });
+  };
+  if (window.fb) gate(); else window.addEventListener('firebase-ready', gate, { once: true });
+</script>
+<script>
+  const setAttemptsLink = () => {
+    const link = document.getElementById('nav-attempts') || document.querySelector('a[href="attempts.html"]');
+    if (!link) return;
+    const update = (user) => { link.setAttribute('href', user ? 'attempts.html' : 'login.html'); };
+    if (!window.fb) { update(null); return; }
+    const { auth, onAuthStateChanged } = window.fb;
+    update(auth.currentUser);
+    onAuthStateChanged(auth, update);
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', setAttemptsLink);
+  else setAttemptsLink();
+</script>
     <script src="assets/js/quiz.js"></script>
     <script>
       const form = document.getElementById('quiz-form');
@@ -59,16 +89,41 @@
         currentQuestions.forEach((q, i) => window.quiz.renderQuestion(questionsWrap, q, i));
       };
 
-      form.addEventListener('submit', (e) => {
+      form.addEventListener('submit', async (e) => {
         e.preventDefault();
         const results = window.quiz.handleSubmit(form, currentQuestions);
         window.quiz.showResults(resultsWrap, results, currentQuestions);
         window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+        try {
+          if (window.fb && window.fb.saveAttempt) {
+            await window.fb.saveAttempt('Chemistry', results);
+          }
+        } catch (err) { console.warn('saveAttempt failed', err); }
       });
 
       reloadBtn.addEventListener('click', () => loadAndRender());
       document.addEventListener('reload-questions', () => loadAndRender());
 
+      // Auth wiring
+      const updateAuthUI = (user) => {
+        const nameEl = document.getElementById('user-name');
+        const inBtn = document.getElementById('signin');
+        const outBtn = document.getElementById('signout');
+        if (!nameEl || !inBtn || !outBtn) return;
+        if (user) { nameEl.textContent = user.displayName || user.email || 'User'; inBtn.style.display = 'none'; outBtn.style.display = ''; }
+        else { nameEl.textContent = 'Guest'; inBtn.style.display = ''; outBtn.style.display = 'none'; }
+      };
+      const bootAuth = () => {
+        if (!window.fb) return;
+        const { auth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } = window.fb;
+        onAuthStateChanged(auth, (user) => updateAuthUI(user));
+        const inBtn = document.getElementById('signin');
+        const outBtn = document.getElementById('signout');
+        if (inBtn) inBtn.onclick = async () => { try { await signInWithPopup(auth, new GoogleAuthProvider()); } catch (e) { console.warn('Sign-in failed', e); } };
+        if (outBtn) outBtn.onclick = () => signOut(auth);
+      };
+      if (window.fb) bootAuth(); else window.addEventListener('firebase-ready', bootAuth, { once: true });
+      
       // initial load
       loadAndRender();
     </script>
