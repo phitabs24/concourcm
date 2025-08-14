@@ -1,0 +1,339 @@
+[
+  {
+    "number": 46,
+    "question": "What is the volume of hydrogen produced when 1.15g of sodium reacts with an excess of ethanol at ambient temperature and pressure (Na: 23 g/mol; Vm = 24 dm³)?",
+    "options": [
+      "1,200 dm³",
+      "204 dm³",
+      "0.12 dm³",
+      "1.2 dm³",
+      "0.6 dm³"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 47,
+    "question": "What mass of soap can be obtained during the saponification of 1kg of olein (molecular mass 884 g/mol), given that the yield is 90% and the soap (sodium oleate) has a molecular mass of 300 g/mol?",
+    "options": [
+      "1031.7g",
+      "928.5g",
+      "348.9g",
+      "309.5g",
+      "3000g"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 48,
+    "question": "But-2-ene has two isomers: cis and trans. These two isomers are:",
+    "options": [
+      "Enantiomers",
+      "Stereoisomers",
+      "Position Isomers",
+      "Chain Isomers",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 49,
+    "question": "The aspirin molecule contains the carboxylic acid function and:",
+    "options": [
+      "The amide function",
+      "The ester function",
+      "The acid anhydride function",
+      "The ketone function",
+      "The ether function"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 50,
+    "question": "What is the name of the reaction product when one mole of C2H2 reacts with two moles of HBr?",
+    "options": [
+      "Bromoethene",
+      "1,2-Dibromoethane",
+      "1,1-Dibromoethane",
+      "1,2-Dibromoethene",
+      "None of the above"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 51,
+    "question": "The boiling point difference between methanol and ethane is due to:",
+    "options": [
+      "The presence of oxygen atoms in methanol",
+      "Methanol being an alcohol while ethane is an alkane",
+      "The presence of hydrogen bonds in ethane",
+      "The presence of hydrogen bonds in methanol",
+      "None of the above"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 52,
+    "question": "Which of the following pairs are stereoisomers?",
+    "options": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "None of the above"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 53,
+    "question": "Which of the following formulas corresponds to an organic compound with formula C5H10O that gives a negative Tollen test, adds one mole of hydrogen, and does not react with metallic sodium?",
+    "options": [
+      "CH3-CH2-CO-CH2-CH3",
+      "CH3-CH(OH)-CH=CH-CH3",
+      "CH3-CH2-O-CH2-CH2-CH3",
+      "CH3-CH2-O-CH2-CH=CH2",
+      "CH3-CH2-CH2-CH2-COH"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 54,
+    "question": "What is the frequency of light with a wavelength of 432 nm? (C = 3×10⁸ m/s)",
+    "options": [
+      "1.44×10⁻¹⁵ Hz",
+      "1.44×10³ Hz",
+      "1.30×10²⁰ Hz",
+      "8.39×10¹¹ Hz",
+      "6.94×10¹⁴ Hz"
+    ],
+    "answer": "E",
+    "year": 2021
+  },
+  {
+    "number": 55,
+    "question": "The ionization energy of an atom is:",
+    "options": [
+      "The number of electrons on the outermost shell",
+      "The ease with which an atom can lose an electron",
+      "The ease with which atoms combine to form molecules",
+      "Load on the core",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 56,
+    "question": "The ionization energy of an element is 1400 kJ/mol. What is the ionization energy per atom?",
+    "options": [
+      "2.32×10⁻²⁰ J",
+      "8.75×10⁻²¹ J",
+      "2.32×10⁻¹⁸ J",
+      "1.45×10⁻² eV",
+      "2.32×10⁻¹ eV"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 57,
+    "question": "The frequency and wavelength emitted during radiation from n=4 to n=1 in hydrogen are respectively:",
+    "options": [
+      "1.92×10³⁴ Hz and 1.56×10⁻²⁶ nm",
+      "3.08×10¹⁵ Hz and 97.5 m",
+      "1.92×10³⁴ Hz and 97.5 nm",
+      "3.08×10¹⁵ Hz and 1.56×10⁻²⁶ nm",
+      "3.08×10¹⁵ Hz and 97.5 nm"
+    ],
+    "answer": "E",
+    "year": 2021
+  },
+  {
+    "number": 58,
+    "question": "Which expression correctly describes the equilibrium constant for the reaction H₂ + O₂ → H₂O?",
+    "options": [
+      "Kc = [H₂O]/[H₂][O₂]",
+      "Kc = [H₂O]²/[H₂][O₂]",
+      "Kc = [H₂O]²/[H₂]²[O₂]",
+      "Kc = [H₂][O₂][H₂O]",
+      "Kc = [H₂O]"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 59,
+    "question": "For the reaction 2A + B ⇌ C + 3D, with concentrations A=1, B=4, C=8, D=2, what is the equilibrium constant?",
+    "options": [
+      "1/16",
+      "16",
+      "4",
+      "6",
+      "16.4"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 60,
+    "question": "Which of the following pairs of solutions could produce a buffer?",
+    "options": [
+      "NaOH and HCl",
+      "HCl and NaCl",
+      "NH₃ and NH₄Cl",
+      "NaOH and HF",
+      "HCl and NH₃"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 61,
+    "question": "When sodium chloride and ammonium nitrate solutions are mixed:",
+    "options": [
+      "A precipitate forms",
+      "A new salt forms",
+      "A gas is released",
+      "An acid and a base are formed",
+      "No reaction occurs"
+    ],
+    "answer": "E",
+    "year": 2021
+  },
+  {
+    "number": 62,
+    "question": "When barium chloride and sodium sulfate solutions are mixed, the spectator ions are:",
+    "options": [
+      "Ba²⁺ and SO₄²⁻",
+      "Ba²⁺ and Cl⁻",
+      "Na⁺ and SO₄²⁻",
+      "Na⁺ and Ba²⁺",
+      "Na⁺ and Cl⁻"
+    ],
+    "answer": "E",
+    "year": 2021
+  },
+  {
+    "number": 63,
+    "question": "The table below shows Ka values for some acid-base pairs. Increasing acidity is in order as follows:",
+    "acid_base_pairs": [
+      { "label": "a", "pair": "HA1 / A⁻", "Ka": 1.78e-5 },
+      { "label": "b", "pair": "HA2 / A⁻", "Ka": 5.01e-8 },
+      { "label": "c", "pair": "HA3 / A⁻", "Ka": 5.01e-10 },
+      { "label": "d", "pair": "HA4 / A⁻", "Ka": 6.31e-5 }
+    ],
+    "options": [
+      "a, b, c, d",
+      "d, a, b, c",
+      "a, d, c, b",
+      "a, c, d, b",
+      "c, b, a, d"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 64,
+    "question": "The table below shows the pKa values for some acid-base pairs. Increasing alkalinity is in order as follows:",
+    "acid_base_pairs": [
+      { "label": "a", "pair": "CH₃COOH / CH₃COO⁻", "pKa": 4.75 },
+      { "label": "b", "pair": "HClO / ClO⁻", "pKa": 7.30 },
+      { "label": "c", "pair": "NH₄⁺ / NH₃", "pKa": 9.30 },
+      { "label": "d", "pair": "C₆H₅COOH / C₆H₅COO⁻", "pKa": 4.20 }
+    ],
+    "options": [
+      "a, b, c, d",
+      "d, a, b, c",
+      "a, d, c, b",
+      "a, c, d, b",
+      "c, b, a, d"
+    ],
+    "answer": "E",
+    "year": 2021
+  },
+  {
+    "number": 65,
+    "question": "What is the concentration of sodium ions in a solution obtained by dissolving 3.55g of Na₂SO₄(s) in 200 ml of water? (Given: Na = 23, S = 32, O = 16)",
+    "options": [
+      "0.125 M",
+      "0.500 M",
+      "0.250 M",
+      "0.025 M",
+      "0.013 M"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 66,
+    "question": "Given standard electrode potentials: Sn⁴⁺/Sn²⁺ E⁰ = +0.15 V, Fe³⁺/Fe²⁺ E⁰ = +0.77 V. For the reaction Sn⁴⁺ + Fe → Fe²⁺ + Sn²⁺, which statement is correct?",
+    "options": [
+      "The cell diagram is given as Pt/Sn⁴⁺(aq), Sn²⁺(aq) // Fe³⁺(aq), Fe²⁺(aq)/Pt",
+      "The spontaneous reaction will be from right to left",
+      "Sn is the species which has been reduced",
+      "Fe is the species that has been oxidized",
+      "The electromotive force (emf) of the cell is -0.62 volts"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 67,
+    "question": "6.4g of sulfur react with 4.1g of aluminum to produce aluminum sulfide (2Al + 3S → Al₂S₃). Given: S = 32 g/mol, Al = 27 g/mol. What is the mass of aluminum sulfide obtained?",
+    "options": [
+      "10.50 g",
+      "10.00 g",
+      "11.39 g",
+      "8.20 g",
+      "19.20 g"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 68,
+    "question": "During a redox or acid/base titration reaction, the chemical species whose concentration is to be determined is:",
+    "options": [
+      "Placed in the conical vial only",
+      "Placed in burette only",
+      "Placed either in the conical flask or in the burette",
+      "All of the above",
+      "None of the above"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 69,
+    "question": "During an oxidation-reduction (redox) reaction:",
+    "options": [
+      "The stronger oxidizing agent always reacts with the weaker reducing agent",
+      "The weaker oxidizing agent always reacts with the weaker reducing agent",
+      "The weakest oxidizing agent always reacts with the strongest oxidizing agent",
+      "The strongest oxidizing agent always reacts with the strongest reducing agent",
+      "The oxidizing agent can react with any reducing agent"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 70,
+    "question": "The oxidation numbers of nitrogen in the following compounds: N₂O, HNO₃, NaNO₂ and NH₃ are respectively:",
+    "options": [
+      "-1, -5, -2 and -3",
+      "+2, +1, -2 and -3",
+      "+1, +5, -2 and -3",
+      "+2, -1, +2 and -3",
+      "None of the above"
+    ],
+    "answer": "C",
+    "year": 2021
+  }
+]

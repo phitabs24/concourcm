@@ -1,0 +1,112 @@
+project_name: medconcour.github.io
+description: >
+  A GitHub Pages site for practicing medical entrance exam questions in Cameroon.
+  Includes subject-specific quizzes (Biology, Chemistry, Physics, General Knowledge, French)
+  and a full exam simulation. Built with HTML, CSS, and JavaScript.
+
+languages:
+  - HTML
+  - CSS
+  - JavaScript
+  - JSON
+
+frameworks: []
+
+file_structure:
+  - index.html: Home page with navigation links
+  - full-exam.html: Simulates a full-length exam
+  - biology.html, chemistry.html, etc.: Subject-specific quiz pages
+  - css/styles.css: Shared styling
+  - js/*.js: Logic for rendering questions and handling submissions
+  - data/*.json: Question banks for each subject
+
+goals:
+  - Load questions dynamically from JSON files
+  - Allow users to select number of questions
+  - Display multiple-choice questions and track answers
+  - Show score and correct answers after submission
+  - Keep UI simple and mobile-friendly
+
+conventions:
+  - Use `fetch()` to load JSON data
+  - Use `document.createElement()` for dynamic DOM rendering
+  - Keep JS modular per subject
+  - Use semantic HTML tags
+
+
+
+
+
+
+
+site:
+  title: MedConcour Practice
+  description: Practice platform for medical entrance exams in Cameroon
+  language: en
+  theme: windsail
+
+navigation:
+  - title: Home
+    url: /index.html
+  - title: Full Exam
+    url: /full-exam.html
+  - title: Biology
+    url: /biology.html
+  - title: Chemistry
+    url: /chemistry.html
+  - title: Physics
+    url: /physics.html
+  - title: General Knowledge
+    url: /general-knowledge.html
+  - title: French
+    url: /french.html
+
+context:
+  audience: Students preparing for medical entrance exams
+  region: Cameroon
+  subjects:
+    - Biology
+    - Chemistry
+    - Physics
+    - General Knowledge
+    - French
+  features:
+    - Randomized question selection
+    - Score feedback
+    - Subject-specific practice
+    - Full exam simulation
+
+search:
+  enabled: true
+  scope: page
+
+
+
+structure:
+medconcour.github.io/
+│
+├── index.html                # Home page
+├── full-exam.html            # Full exam page
+├── biology.html              # Biology practice page
+├── chemistry.html            # Chemistry practice page
+├── physics.html              # Physics practice page
+├── general-knowledge.html    # General Knowledge page
+├── french.html               # French page
+│
+├── css/
+│   └── styles.css            # Shared styles
+│
+├── js/
+│   ├── main.js               # Navigation and shared logic
+│   ├── biology.js            # Biology question logic
+│   ├── chemistry.js          # Chemistry question logic
+│   ├── physics.js            # Physics question logic
+│   ├── general.js            # General Knowledge logic
+│   └── french.js             # French logic
+│
+├── data/
+│   ├── biology.json          # Biology question bank
+│   ├── chemistry.json        # Chemistry question bank
+│   ├── physics.json          # Physics question bank
+│   ├── general.json          # General Knowledge question bank
+│   └── french.json           # French question bank

@@ -1,0 +1,106 @@
+[
+  {
+    "number": 43,
+    "question": "Elle tous les matins avant de sortir.",
+    "options": [
+      "Se lave",
+      "Se laves",
+      "Se lavent",
+      "S’est lavé",
+      "Se laver"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 44,
+    "question": "Les étudiants les samedis matins.",
+    "options": [
+      "Vais",
+      "Allons",
+      "Vont",
+      "Aller",
+      "Allez"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 45,
+    "question": "Mexique est un beau pays: n’est-ce pas ?",
+    "options": [
+      "La",
+      "Du",
+      "Au",
+      "Le",
+      "En"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 46,
+    "question": "Le surveillant général doit trouver une punition aux élèves.",
+    "options": [
+      "Aux",
+      "Au",
+      "Les",
+      "L’",
+      "En"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 47,
+    "question": "Maman ne mange pas viande. Elle a un problème de goutte.",
+    "options": [
+      "De la",
+      "De",
+      "La",
+      "Du",
+      "Le"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 48,
+    "question": "Les chambres de hôtel sont climatisées.",
+    "options": [
+      "Ce",
+      "Ces",
+      "Cette",
+      "Sette",
+      "Cet"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 49,
+    "question": "« Avoir le cœur sur la main » veut dire être:",
+    "options": [
+      "Courageux",
+      "Timide",
+      "Généreux",
+      "Peureux",
+      "Facile"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 50,
+    "question": "Quand l’orateur le silence, il commença son discours.",
+    "options": [
+      "A obtenu",
+      "Aura obtenu",
+      "Aurait obtenu",
+      "Eut obtenu",
+      "Avait"
+    ],
+    "answer": "A",
+    "year": 2021
+  }
+]

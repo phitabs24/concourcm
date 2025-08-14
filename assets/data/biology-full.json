@@ -1,0 +1,717 @@
+[
+  {
+    "number": 1,
+    "question": "The normal pH value of body fluid is:",
+    "options": [
+      "7.15 – 7.25",
+      "7.35 – 7.45",
+      "7.55 – 7.65",
+      "7.00 – 7.35",
+      "6.50 – 7.52"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 2,
+    "question": "The junction between one neuron and the next or between a neuron and an effector is called?",
+    "options": [
+      "A synapse",
+      "A dendrite",
+      "A neurotransmitter",
+      "A ventricle",
+      "A jap junction"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 3,
+    "question": "The retina does the following:",
+    "options": [
+      "Enables vision in light and dark using cones and rods",
+      "Gives depth perception using binocular vision",
+      "Contains the ciliary muscles that control the shape of the lens",
+      "Protects and supports the shape of the eye",
+      "Allows vision in light and dark using only cones"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 4,
+    "question": "Which blood component plays the biggest role in maintaining blood osmotic pressure?",
+    "options": [
+      "Albumin",
+      "Carbon dioxide",
+      "White blood cells",
+      "Fibrinogen",
+      "Plasma"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 5,
+    "question": "Blood pressure is the measurement of:",
+    "options": [
+      "The pressure exerted by blood on the walls of blood vessels",
+      "The pressure exerted by the blood on the arteries",
+      "The pressure exerted by the blood on the veins",
+      "The pressure exerted by the blood on the aorta",
+      "The pressure exerted by the blood on the capillaries"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 6,
+    "question": "This is the pacemaker of the heart.",
+    "options": [
+      "Atrioventricular node",
+      "Purkinje fibers",
+      "Atrioventricular bundle",
+      "Sinus node",
+      "None of the above, a pacemaker is surgically inserted"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 7,
+    "question": "An antigen is:",
+    "options": [
+      "A chemical messenger released by virus-infected cells",
+      "A lymphocyte responsible for cell-mediated immunity",
+      "Something lining the inside of the lungs causing infections",
+      "An organic or chemical substance which causes the body to form antibodies",
+      "A thick, white-yellow fluid"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 8,
+    "question": "The direct control of water excretion by the kidneys is controlled by:",
+    "options": [
+      "Antidiuretic hormone",
+      "The medulla oblongata",
+      "Blood plasma",
+      "The amounts of sodium in the blood",
+      "The amounts of calcium in the blood"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 9,
+    "question": "Carbon monoxide is dangerous because:",
+    "options": [
+      "It binds tightly to hemoglobin making it unavailable to oxygen",
+      "It binds strongly to plasma making it unavailable to carbon dioxide",
+      "It increases the pH level of the blood causing hyperventilation",
+      "Carbon monoxide is not harmful, we normally have it in our body",
+      "It binds strongly to plasma making good production of red blood cells"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 10,
+    "question": "The liver does which of the following?",
+    "options": [
+      "Glycogen storage",
+      "Synthesis of plasma proteins",
+      "Bile production",
+      "Drug detox",
+      "All of the above"
+    ],
+    "answer": "E",
+    "year": 2021
+  },
+  {
+    "number": 11,
+    "question": "This digestive enzyme is produced in the salivary glands and pancreas:",
+    "options": [
+      "Maltase",
+      "Amylase",
+      "Nuclease",
+      "Lipase",
+      "Pepsin"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 12,
+    "question": "The function of the ileum is:",
+    "options": [
+      "Absorb nutrients",
+      "Absorb vitamin B12 and bile salts",
+      "Introduce bile and pancreatic juices",
+      "Absorb alcohol and aspirin",
+      "Absorb lipids"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 13,
+    "question": "Non-essential amino acids:",
+    "options": [
+      "Are stored in the body",
+      "Only occasionally needed",
+      "Can be produced by the body",
+      "Can be taken as supplements",
+      "Are not important"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 14,
+    "question": "The reason iodine is in salt is to:",
+    "options": [
+      "Prevent diabetes",
+      "Prevent simple goiters",
+      "Prevent Addison’s disease",
+      "Prevent Cushing’s Syndrome",
+      "Prevent hypertension"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 15,
+    "question": "Sugar in RNA is ___, sugar in DNA is ___.",
+    "options": [
+      "Deoxyribose, ribose",
+      "Ribose, deoxyribose",
+      "Ribose, phosphate",
+      "Ribose, uracil",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 16,
+    "question": "In the mammalian cell cycle DNA synthesis occurs during:",
+    "options": [
+      "S-stage",
+      "The G1 phase",
+      "The mitotic phase",
+      "The G2 stage",
+      "None of the above"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 17,
+    "question": "Which statement is incorrect about comparisons of male and female reproduction?",
+    "options": [
+      "The reproductive organs of both sexes are homologous",
+      "Both sexes have reproductive abilities throughout adulthood",
+      "Both systems undergo latent development",
+      "Both systems have gonads that produce gametes and sex hormones",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 18,
+    "question": "What are fingernails made of?",
+    "options": [
+      "Elastin",
+      "Cuticle",
+      "Keratin",
+      "Plastin",
+      "None of the above"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 19,
+    "question": "How many lungs does the human body have?",
+    "options": [
+      "Has one",
+      "A pair",
+      "Two pairs",
+      "Four",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 20,
+    "question": "Some amino acids cannot be synthesized by the human body and must be included in the diet. These are called:",
+    "options": [
+      "Basic amino acids",
+      "Essential amino acids",
+      "Non-essential amino acids",
+      "Fatty acids",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 21,
+    "question": "The only cellular organelles visible under the electron microscope are:",
+    "options": [
+      "Core",
+      "Ribosomes",
+      "Golgi bodies",
+      "The chloroplast",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 22,
+    "question": "During mitosis, the maximum condensation of chromosomes is:",
+    "options": [
+      "Early in prophase",
+      "At telophase",
+      "At metaphase",
+      "At interphase",
+      "At phase G2"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 23,
+    "question": "The Biuret test makes it easy to identify:",
+    "options": [
+      "Carbohydrates",
+      "Amino acids",
+      "Dipeptides",
+      "Proteins",
+      "Starch"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 24,
+    "question": "In humans the enzymes are:",
+    "options": [
+      "Provided by food",
+      "Synthesized in his body",
+      "Very active at 0°C",
+      "Irreversibly destroyed at 100°C",
+      "The same at any age"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 25,
+    "question": "The Krebs cycle takes place in:",
+    "options": [
+      "The intermembrane space of the mitochondria",
+      "The mitochondrial stroma",
+      "The cytoplasm",
+      "The stroma of the chloroplast",
+      "Core"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 26,
+    "question": "Mutation:",
+    "options": [
+      "Can only affect germ cells",
+      "Alters the sequence of a gene",
+      "Is always transmitted to offspring",
+      "Always has a selective advantage",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 27,
+    "question": "The genome of an individual:",
+    "options": [
+      "Matches all cytoplasmic genes",
+      "Matches all of his DNA",
+      "Characterizes a genetic abnormality",
+      "Is fully transmitted to its offspring",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 28,
+    "question": "Which of the following physiological variations is linked to sex?",
+    "options": [
+      "Albinism",
+      "Blood groups",
+      "Sickle cell disease",
+      "Hemophiliac condition",
+      "None of the above"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 29,
+    "question": "Cell-mediated immune response affects:",
+    "options": [
+      "B cells",
+      "Circulating antibodies",
+      "Macrophages",
+      "Cytotoxic T lymphocytes (killer cells)",
+      "None of the above"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 30,
+    "question": "Which of the following structures occupies the neural canal of the spine?",
+    "options": [
+      "The cerebellum",
+      "The hypothalamus",
+      "The medulla oblongata",
+      "The spinal cord",
+      "None of the above"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 31,
+    "question": "The hormone that accentuates uterine contractions during the menstrual cycle is:",
+    "options": [
+      "Progesterone",
+      "Estrogen",
+      "Oxytocin",
+      "Chorionic gonadotropin",
+      "None of the above"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 32,
+    "question": "The hormone glucagon is:",
+    "options": [
+      "Hypoglycemic",
+      "Hyperglycemic",
+      "A hormone that promotes lipid synthesis",
+      "A hormone that promotes glycogenesis",
+      "Secreted by the ß cells of the islets of Langerhans"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 33,
+    "question": "Glycosuria:",
+    "options": [
+      "Is excess blood glucose",
+      "Is a blood glucose deficiency",
+      "Is the presence of blood in the urine",
+      "Is the presence of glucose in the urine",
+      "Is the presence of uric acid in the blood"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 34,
+    "question": "In humans, spermatogenesis:",
+    "options": [
+      "Takes place in the interstitial cells",
+      "Begins at puberty and ends absolutely at age 60",
+      "Is continuous from puberty",
+      "Has a duration of 30 days",
+      "Is centrifugal in the seminiferous tubules"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 35,
+    "question": "In a woman, oogenesis:",
+    "options": [
+      "Begins at puberty and ends at menopause",
+      "Is discontinuous",
+      "Takes place in the uterus",
+      "Is centripetal in the ovary",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 36,
+    "question": "Which of the following is not a component of a DNA molecule?",
+    "options": [
+      "Phosphate",
+      "Glucose",
+      "Adenine",
+      "Guanin",
+      "Cytosine"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 37,
+    "question": "Which cell type is specifically involved in the humoral immune response?",
+    "options": [
+      "Macrophage",
+      "Cytotoxic T-lymphocyte (killer cell)",
+      "T-lymphocyte",
+      "Plasma cell (plasmacyte)",
+      "B lymphocyte"
+    ],
+    "answer": "E",
+    "year": 2021
+  },
+  {
+    "number": 38,
+    "question": "Genotype:",
+    "options": [
+      "Corresponds to all the genes carried by the chromosomes",
+      "Is not the same in identical twins",
+      "Is transmitted with modifications to daughter cells during mitosis",
+      "Matches the entire DNA molecule",
+      "All of the above"
+    ],
+    "answer": "E",
+    "year": 2021
+  },
+  {
+    "number": 39,
+    "question": "Metabolism:",
+    "options": [
+      "Does not represent all enzymatic reactions taking place in the cell",
+      "Is composed of synthesis reactions only",
+      "Uses metabolites and energy",
+      "Corresponds to all cell activities",
+      "All of the above"
+    ],
+    "answer": "E",
+    "year": 2021
+  },
+  {
+    "number": 40,
+    "question": "Mitosis:",
+    "options": [
+      "Is a process of sexual reproduction",
+      "Leads to the formation of two identical daughter cells from one mother cell",
+      "Does not exist in prokaryotes",
+      "All of the above",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 41,
+    "question": "A clone:",
+    "options": [
+      "Consists of all cells with the same functions",
+      "Consists of all organisms or cells derived from the same stock and having the same genetic information",
+      "Is only obtained from vertebrates",
+      "All of the above",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 42,
+    "question": "Immunodeficiency caused by HIV infection:",
+    "options": [
+      "Allows appearance of opportunistic infections",
+      "Is a consequence of opportunistic infections",
+      "Is due to an increase in T4 cells",
+      "Is due to a decrease in TS cells",
+      "May have different effects on different neurons"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 43,
+    "question": "Which is the largest organ in the human body?",
+    "options": [
+      "Lungs",
+      "Intestines",
+      "Heart",
+      "Skin",
+      "None of the above"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 44,
+    "question": "What is the name of the largest part of the human brain?",
+    "options": [
+      "The cerebellum",
+      "Hindbrain",
+      "The hypothalamus",
+      "The brain",
+      "None of the above"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 45,
+    "question": "The muscle located at the front of the thigh of the lower limb is called:",
+    "options": [
+      "Quadriceps",
+      "Biceps",
+      "Flexor",
+      "Sterno-cleido-mastoid",
+      "None of the above"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 1,
+    "question": "An animal tissue made up of a single layer of flat cells functioning in the rapid diffusion of substances may be located in:",
+    "options": [
+      "Alveoli of the lungs",
+      "Ileum",
+      "Salivary glands",
+      "Urinary bladder",
+      "None of the following above"
+    ],
+    "answer": "A",
+    "year": "2020"
+  },
+  {
+    "number": 2,
+    "question": "The genetic function of restriction endonucleases during a genetic process could be:",
+    "options": [
+      "Adding new nucleotides to a growing DNA strand",
+      "Joining nucleotides during replication",
+      "Joining nucleotides at specific sites during the process",
+      "Clicking nucleic acids at specific sites during the process",
+      "All responses above"
+    ],
+    "answer": "D",
+    "year": "2020"
+  },
+  {
+    "number": 3,
+    "question": "The bonds that stabilize the secondary structure of protein molecules are:",
+    "options": [
+      "Peptide bonds",
+      "Hydrophobic interactions",
+      "Ion bonds",
+      "Hydrogen bonds",
+      "None of the above"
+    ],
+    "answer": "D",
+    "year": "2020"
+  },
+  {
+    "number": 4,
+    "question": "Which of the following two enzymes is required to produce recombinant DNA?",
+    "options": [
+      "Endonuclease and transcriptase",
+      "Endonuclease and Ligase",
+      "Polymerase and Ligase",
+      "Transcriptase and Ligase",
+      "Polymerase and transcriptase"
+    ],
+    "answer": "B",
+    "year": "2020"
+  },
+  {
+    "number": 5,
+    "question": "The base sequence in the codon of the messenger ribonucleic acid (mRNA) transcribed by the triplet CTA on deoxyribonucleic acid (DNA) is:",
+    "options": [
+      "GAT",
+      "GTA",
+      "GAU",
+      "AAG",
+      "None of the above"
+    ],
+    "answer": "C",
+    "year": "2020"
+  },
+  {
+    "number": 6,
+    "question": "Hormones produced by the anterior pituitary gland are called trophic hormones because:",
+    "options": [
+      "They stimulate other glands to produce their hormones",
+      "They promote the growth of trophic organs",
+      "They promote the growth of secondary sexual characteristics",
+      "The hormones they release are produced in the hypothalamus",
+      "None of the responses above"
+    ],
+    "answer": "A",
+    "year": "2020"
+  },
+  {
+    "number": 7,
+    "question": "In muscle contraction, the role of tropomyosin is:",
+    "options": [
+      "To bind calcium ions",
+      "To activate and deactivate the contractile mechanism",
+      "To bind troponin to tropomyosin",
+      "To inhibit any interaction between the actin and myosin filaments",
+      "None of the above"
+    ],
+    "answer": "D",
+    "year": "2020"
+  },
+  {
+    "number": 8,
+    "question": "What is the main product of cyclic phosphorylation?",
+    "options": [
+      "NADP reduced",
+      "Oxygen",
+      "NADPH2",
+      "ADP",
+      "ATP"
+    ],
+    "answer": "E",
+    "year": "2020"
+  },
+  {
+    "number": 9,
+    "question": "What causes depolarisation of the post synaptic membrane?",
+    "options": [
+      "Fusion of synaptic vesicles with the presynaptic membrane",
+      "Fusion of synaptic vesicles with the post synaptic membrane",
+      "The transmitter substance diffusing through the synaptic cleft",
+      "The precipitation of calcium ions in the synaptic button",
+      "None of the above"
+    ],
+    "answer": "C",
+    "year": "2020"
+  },
+  {
+    "number": 10,
+    "question": "Which of the following joints allows a free rotation of the limb?",
+    "options": [
+      "Pivot joint (Trochoid joint)",
+      "Hinge joints (Trochlea joint)",
+      "Sliding joint (Flat joint)",
+      "Ball joint (Spheroid joint)",
+      "None of the following"
+    ],
+    "answer": "D",
+    "year": "2020"
+  }
+]

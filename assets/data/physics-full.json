@@ -1,0 +1,328 @@
+[
+  {
+    "number": 71,
+    "question": "Two electric charges of -6 pC and +6 μC are placed respectively at two points A and B 1m apart. The electric field is zero at the point:",
+    "options": [
+      "Located in the middle of segment AB",
+      "Located outside segment AB at 1m of A",
+      "Located outside segment AB at 1m of B",
+      "Outside the AB line",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 72,
+    "question": "The intensity of the current which passes through a circuit for 40 minutes and gives an efficiency of 24100 C is:",
+    "options": [
+      "603 A",
+      "10 A",
+      "0.1 A",
+      "5.8×10⁷ A",
+      "None of the above"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 73,
+    "question": "A resistance motor powered by a voltage of 220 V and crossed by a current of 10 A has a mechanical power of:",
+    "options": [
+      "20 W",
+      "2 KW",
+      "20 KW",
+      "200 W",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 74,
+    "question": "The intensity of the electric force exerted by a charge of -5×10⁻⁶ C on another charge of +10⁻⁵ C separated by a distance of 20 m (K = 9×10⁹ SI Units) is:",
+    "options": [
+      "11.25 N",
+      "2.25 N",
+      "1.125×10¹¹ N",
+      "11.25 N",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 75,
+    "question": "The value of the electromotive force induced in a coil of negligible resistance is 4.5 μV. What is the value of the voltage across this coil?",
+    "options": [
+      "3.5 μV",
+      "6.3 μV",
+      "5.3 μV",
+      "4.5 μV",
+      "None of the above"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 76,
+    "question": "314 m of insulated copper wire with a radius of 1 mm are rolled up in turns around a cylindrical core 10 cm in diameter. The number of turns of this solenoid is:",
+    "options": [
+      "5 rounds",
+      "500 rounds",
+      "1000 rounds",
+      "1500 rounds",
+      "None of the above"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 77,
+    "question": "When a wire potentiometer is used to compare two electromotive forces (emf), good experimental techniques include: 1) Verification of wire uniformity, 2) Use of a very sensitive current measuring instrument, 3) Always checking the constant current through the wire.",
+    "options": [
+      "1, 2, 3 are correct",
+      "1, 2 only",
+      "2, 3 only",
+      "1 only",
+      "3 only"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 78,
+    "question": "The corpuscular character of light is demonstrated experimentally by:",
+    "options": [
+      "Scattering",
+      "Diffraction",
+      "Light interference",
+      "Refraction",
+      "None of the above"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 79,
+    "question": "If the 234,90 Th atomic nucleus emits a β particle, the resulting nucleus will contain:",
+    "options": [
+      "Neutrons: 234 and Protons: 91",
+      "Neutrons: 234 and Protons: 89",
+      "Neutrons: 91 and Protons: 91",
+      "Neutrons: 148 and Protons: 82",
+      "Neutrons: 143 and Protons: 91"
+    ],
+    "answer": "E",
+    "year": 2021
+  },
+  {
+    "number": 80,
+    "question": "Photoelectric emission is:",
+    "options": [
+      "Independent of light output",
+      "Independent of the frequency of the light radiation",
+      "Independent of the threshold frequency of the metal",
+      "Lighting duration function",
+      "None of the above"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 81,
+    "question": "For a given light-emitting cell, which of the following is correct?",
+    "options": [
+      "The electrical current output depends on the wavelength of radiation used",
+      "The threshold frequency does not depend on the cathode metal but on the anode metal",
+      "The threshold frequency depends on the number of photons arriving per second on the cathode",
+      "The intensity of the current output is greater when the cell is turned on with visible light than with ultraviolet light",
+      "All of the above"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 82,
+    "question": "When 110,49 In undergoes a positron emission, the nucleus produces:",
+    "options": [
+      "111,49 In",
+      "110,48 In",
+      "111,50 In",
+      "109,50 In",
+      "109,49 In"
+    ],
+    "answer": "E",
+    "year": 2021
+  },
+  {
+    "number": 83,
+    "question": "A radioactive sample of bismuth-210 has an activity of 9.15×10¹³ Bq. On average, how many disintegrations occur per second in this sample?",
+    "options": [
+      "9.15×10¹³",
+      "4.57×10¹³",
+      "31.90×10¹³",
+      "60.17×10¹³",
+      "91.53×10¹³"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 84,
+    "question": "The activity of a laboratory sample of iodine is 1.85×10⁶ Bq at the time of transmission. On arrival, the activity value is 1.55×10⁶ Bq. Knowing that its half-life is 8.04 days, what was the time to delivery?",
+    "options": [
+      "2.05 days",
+      "0.80 days",
+      "0.02 days",
+      "6.0×10⁶ days",
+      "2.15 days"
+    ],
+    "answer": "A",
+    "year": 2021
+  },
+  {
+    "number": 85,
+    "question": "The threshold frequency of a photoemissive cell is a function of:",
+    "options": [
+      "Intensity of the photoelectric current",
+      "Wavelength of the light radiation",
+      "Target metal",
+      "Mass of the electron",
+      "None of the above"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 86,
+    "question": "The origin of Laplace’s force is:",
+    "options": [
+      "Thermodynamics",
+      "Atomic",
+      "Electromagnetic",
+      "Mechanical",
+      "Nuclear energy"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 87,
+    "question": "The distance between the Earth and the Moon is 384×10³ km and the ratio of their masses is Mₑ/Mₘ = 81.5. The point of equigravity on the axis between the two planets is at:",
+    "options": [
+      "4654.5 km from the Moon",
+      "79345.5 km from the Earth",
+      "38293.8 km from the Moon",
+      "382937.9 km from the Earth",
+      "345706.2 km from the Moon"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 88,
+    "question": "The resultant force exerted on a solid of mass 5 tons is 4×10⁴ N. The center of gravity of this solid moves with an acceleration of magnitude:",
+    "options": [
+      "8 m/s²",
+      "0.125 m/s²",
+      "25 m/s²",
+      "2.5 m/s²",
+      "0.25 m/s²"
+    ],
+    "answer": "D",
+    "year": 2021
+  },
+  {
+    "number": 89,
+    "question": "Two steel balls B₁ and B₂ fall from the same horizontal plane at a height of 25 m. B₁ is released without speed while B₂ is launched horizontally at 5 m/s. At time t = 1.5 s:",
+    "options": [
+      "The height of B₁ is greater than that of B₂",
+      "The height of B₂ is greater than that of B₁",
+      "The heights of the two balls are equal",
+      "The magnitudes of the velocities of the two balls are equal",
+      "None of the above"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 90,
+    "question": "A ball is launched from point O on horizontal ground with an inclined speed Vo at an angle α. Neglecting air resistance and assuming the ball is a point mass: During the movement, the acceleration vector:",
+    "options": [
+      "Stays parallel to the flight path and in the same direction",
+      "Remains parallel to the flight path but in the opposite direction",
+      "Stays perpendicular to the flight path",
+      "Changes direction at the top of the trajectory",
+      "None of the above"
+    ],
+    "answer": "E",
+    "year": 2021
+  },
+  {
+    "number": 91,
+    "question": "A ball is launched from point O on horizontal ground with an inclined speed Vo at an angle α. Neglecting air resistance and assuming the ball is a point mass: At the top of the trajectory, the speed is:",
+    "options": [
+      "Nil",
+      "Vertical",
+      "Minimal",
+      "Maximum",
+      "None of the above"
+    ],
+    "answer": "C",
+    "year": 2021
+  },
+  {
+    "number": 92,
+    "question": "A ball is launched from point O on horizontal ground with an inclined speed Vo at an angle α. Neglecting air resistance and assuming the ball is a point mass: The height of the trajectory at the top is:",
+    "options": [
+      "Independent of Vo",
+      "Independent of angle α",
+      "Proportional to Vo",
+      "Inversely proportional to Vo",
+      "Proportional to the square of Vo"
+    ],
+    "answer": "E",
+    "year": 2021
+  },
+  {
+    "number": 93,
+    "question": "A ball is launched from point O on horizontal ground with an inclined speed Vo at an angle α. Neglecting air resistance and assuming the ball is a point mass: The duration of the movement of the ball is:",
+    "options": [
+      "Independent of Vo",
+      "Proportional to Vo",
+      "Inversely proportional to Vo",
+      "Proportional to the square of Vo",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 94,
+    "question": "A star with twice the mass of the sun has a gravitational field of 2.65×10¹² N·kg⁻¹ at its surface. Given: mass of the sun M = 1.99×10³⁰ kg, gravitational constant G = 6.67×10⁻¹¹ SI. The radius of the star is:",
+    "options": [
+      "7 km",
+      "14 km",
+      "10 km",
+      "13 km",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+  {
+    "number": 95,
+    "question": "The magnitude of the gravitational field due to a solid of mass 7.35×10²² kg at a point located 3.85×10⁸ m away is:",
+    "options": [
+      "1.3×10⁴ N·kg⁻¹",
+      "3.3×10⁻⁵ N·kg⁻¹",
+      "3.3×10⁵ N·kg⁻¹",
+      "2.6×10⁻³ N·kg⁻¹",
+      "None of the above"
+    ],
+    "answer": "B",
+    "year": 2021
+  },
+
+]

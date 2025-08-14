@@ -1,0 +1,151 @@
+You are a highly skilled educational content engineer and web developer. I have a document containing multiple-choice questions (MCQs) from entrance exams into a medical faculty, spanning the years 2013 to 2021. Each year includes the following sections:
+
+- Biology questions
+- Chemistry questions
+- Physics questions
+- General Knowledge questions
+- French Language questions
+
+Each question has only one correct answer.
+
+---
+
+### 🎯 GOAL 1: Create a Subject-Based Question Bank
+
+1. **Extract and organize** all questions from the document by subject.
+2. For each subject (Biology, Chemistry, Physics, General Knowledge, French), create a structured JSON file that includes:
+   - All questions from all years grouped together.
+   - Clearly numbered questions.
+   - Multiple-choice format (A, B, C, D, etc.).
+   - Each question object should include:
+     - `question`: the question text
+     - `options`: an array of choices
+     - `answer`: the correct option (e.g., "B")
+     - `year`: the exam year (optional but useful)
+3. Ensure formatting is clean and consistent for easy parsing and dynamic rendering.
+
+---
+
+### 🎯 GOAL 2: Build an Interactive Exam Practice Site (GitHub Pages Compatible)
+
+Generate a static site using HTML, CSS, and JavaScript that can be deployed via GitHub Pages. The site should include:
+
+#### 🏠 Home Page (`index.html`)
+- Navigation buttons or links for:
+  - Full Exam
+  - Biology
+  - Chemistry
+  - Physics
+  - General Knowledge
+  - French
+
+#### 📚 Subject Pages (`biology.html`, `chemistry.html`, etc.)
+- Each subject page should:
+  - Allow the student to select how many questions to practice.
+  - Include a "Start Practice" button.
+  - Randomly sample that number of questions from the subject's JSON file.
+  - Display questions with multiple-choice options.
+  - Allow students to submit answers.
+
+#### 🧪 Full Exam Page (`exam.html`)
+- Automatically generate a full-length exam with:
+  - 50 Biology questions
+  - 25 Chemistry questions
+  - 25 Physics questions
+  - 35 General Knowledge questions
+  - 15 French questions
+- Randomly selected from the respective subject JSON files.
+
+#### ✅ After Submission
+- Show the student:
+  - Their score.
+  - Which questions they got right or wrong.
+  - The correct answers.
+  - Optional: brief feedback or explanation per question.
+
+---
+
+### 🔧 Technical Requirements
+
+- Use only **HTML, CSS, and JavaScript** (no backend).
+- Ensure compatibility with **GitHub Pages**:
+  - All assets must be loaded via **relative paths**.
+  - JSON files must be accessible via `fetch()` from the `/data/` folder.
+- Use **local storage or in-browser memory** to track answers and scores.
+- Make the interface clean, responsive, and mobile-friendly.
+- Include **comments** in the code for easy customization.
+- Organize code into folders:
+  ```
+  medconcour.github.io/
+  ├── index.html
+  ├── biology.html
+  ├── exam.html
+  ├── scripts/
+  │   └── biology.js
+  ├── styles/
+  │   └── main.css
+  ├── data/
+  │   └── biology.json
+  └── .windsurf/
+      ├── context
+      └── prompts
+  ```
+
+---
+
+### 📌 Additional Notes
+
+- Simulate sample questions if needed to demonstrate functionality.
+- You may suggest improvements or features that enhance learning or usability.
+- Provide the final output in two parts:
+  1. The structured JSON question bank.
+  2. The full codebase for the practice site, organized by page or component.
+
+---
+
+
+
+# Preferred function names and behaviors
+functions:
+  - name: loadQuestions
+    description: Fetches question data from a JSON file and returns a randomized subset.
+  - name: renderQuestion
+    description: Dynamically creates HTML elements for a single multiple-choice question.
+  - name: handleSubmit
+    description: Processes user answers, calculates score, and displays feedback.
+  - name: showResults
+    description: Displays the final score and correct answers after submission.
+  - name: shuffleArray
+    description: Utility function to randomize an array.
+
+# Preferred coding style
+style:
+  - Use modern JavaScript (ES6+)
+  - Prefer `const` and `let` over `var`
+  - Use arrow functions where appropriate
+  - Keep functions modular and reusable
+  - Use semantic HTML tags (e.g., <section>, <article>, <nav>)
+  - Keep CSS clean and minimal; use classes over inline styles
+
+# Completion preferences
+completions:
+  - Prefer code that works in static environments (no backend)
+  - Avoid external libraries unless absolutely necessary
+  - Favor vanilla JS over frameworks
+  - Include comments for clarity
+  - Suggest responsive design patterns for mobile compatibility
+
+# Naming conventions
+naming:
+  - Use camelCase for JS variables and functions
+  - Use kebab-case for CSS classes
+  - Use lowercase filenames with hyphens (e.g., biology.html, general-knowledge.json)
+
+# Project-specific guidance
+project:
+  - This is a static site hosted on GitHub Pages
+  - All questions are multiple-choice with one correct answer
+  - Questions are stored in JSON files by subject
+  - Each subject page loads questions dynamically and tracks user input
+  - The full exam page samples questions from all subjects
+

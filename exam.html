@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Full Exam | MedConCour</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>Full Exam</h1>
+        <nav aria-label="Primary">
+          <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="biology.html">Biology</a></li>
+            <li><a href="chemistry.html">Chemistry</a></li>
+            <li><a href="physics.html">Physics</a></li>
+            <li><a href="general-knowledge.html">General Knowledge</a></li>
+            <li><a href="french.html">French</a></li>
+            <li><a href="exam.html" aria-current="page">Full Exam</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="quiz-header">
+        <h2>Mixed Subject Exam</h2>
+        <p>The exam is split into sections per subject. Question numbering is continuous.</p>
+        <button id="reload" class="btn" type="button">Reload Questions</button>
+      </section>
+
+      <form id="quiz-form">
+        <section>
+          <h3>Biology</h3>
+          <div id="bio-questions"></div>
+        </section>
+        <section>
+          <h3>Chemistry</h3>
+          <div id="chem-questions"></div>
+        </section>
+        <section>
+          <h3>Physics</h3>
+          <div id="phys-questions"></div>
+        </section>
+        <section>
+          <h3>General Knowledge</h3>
+          <div id="gk-questions"></div>
+        </section>
+        <section>
+          <h3>French</h3>
+          <div id="fr-questions"></div>
+        </section>
+        <div style="margin-top: 1rem;">
+          <button class="btn" type="submit">Submit</button>
+        </div>
+      </form>
+
+      <section id="results" style="margin-top: 1rem;"></section>
+    </main>
+
+    <script src="assets/js/quiz.js"></script>
+    <script>
+      const form = document.getElementById('quiz-form');
+      const bioWrap = document.getElementById('bio-questions');
+      const chemWrap = document.getElementById('chem-questions');
+      const physWrap = document.getElementById('phys-questions');
+      const gkWrap = document.getElementById('gk-questions');
+      const frWrap = document.getElementById('fr-questions');
+      const resultsWrap = document.getElementById('results');
+      const reloadBtn = document.getElementById('reload');
+
+      let currentQuestions = [];
+
+      const loadAndRender = async () => {
+        // Clear previous content
+        [bioWrap, chemWrap, physWrap, gkWrap, frWrap].forEach(w => w.innerHTML = '');
+        resultsWrap.innerHTML = '';
+
+        // Configure per-subject counts (adjust as desired)
+        const perSection = {
+          bio: 10,
+          chem: 10,
+          phys: 10,
+          gk: 10,
+          fr: 10,
+        };
+
+        // Load each subject; render with continuous numbering by passing an offset
+        currentQuestions = [];
+        let offset = 0;
+
+        const bioQs = await window.quiz.loadQuestions('assets/data/biology-full.json', perSection.bio);
+        bioQs.forEach((q, i) => window.quiz.renderQuestion(bioWrap, q, offset + i));
+        currentQuestions = currentQuestions.concat(bioQs);
+        offset += bioQs.length;
+
+        const chemQs = await window.quiz.loadQuestions('assets/data/chemistry-full.json', perSection.chem);
+        chemQs.forEach((q, i) => window.quiz.renderQuestion(chemWrap, q, offset + i));
+        currentQuestions = currentQuestions.concat(chemQs);
+        offset += chemQs.length;
+
+        const physQs = await window.quiz.loadQuestions('assets/data/physics-full.json', perSection.phys);
+        physQs.forEach((q, i) => window.quiz.renderQuestion(physWrap, q, offset + i));
+        currentQuestions = currentQuestions.concat(physQs);
+        offset += physQs.length;
+
+        const gkQs = await window.quiz.loadQuestions('assets/data/general-knowledge-full.json', perSection.gk);
+        gkQs.forEach((q, i) => window.quiz.renderQuestion(gkWrap, q, offset + i));
+        currentQuestions = currentQuestions.concat(gkQs);
+        offset += gkQs.length;
+
+        const frQs = await window.quiz.loadQuestions('assets/data/french-full.json', perSection.fr);
+        frQs.forEach((q, i) => window.quiz.renderQuestion(frWrap, q, offset + i));
+        currentQuestions = currentQuestions.concat(frQs);
+        offset += frQs.length;
+      };
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const results = window.quiz.handleSubmit(form, currentQuestions);
+        window.quiz.showResults(resultsWrap, results, currentQuestions);
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+      });
+
+      reloadBtn.addEventListener('click', () => loadAndRender());
+      document.addEventListener('reload-questions', () => loadAndRender());
+
+      // initial load
+      loadAndRender();
+    </script>
+  </body>
+</html>

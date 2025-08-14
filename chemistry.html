@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chemistry | MedConCour</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>Chemistry</h1>
+        <nav aria-label="Primary">
+          <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="biology.html">Biology</a></li>
+            <li><a href="chemistry.html" aria-current="page">Chemistry</a></li>
+            <li><a href="physics.html">Physics</a></li>
+            <li><a href="general-knowledge.html">General Knowledge</a></li>
+            <li><a href="french.html">French</a></li>
+            <li><a href="exam.html">Full Exam</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="quiz-header">
+        <h2>Chemistry Quiz</h2>
+        <button id="reload" class="btn" type="button">Reload Questions</button>
+      </section>
+
+      <form id="quiz-form">
+        <div id="questions"></div>
+        <div style="margin-top: 1rem;">
+          <button class="btn" type="submit">Submit</button>
+        </div>
+      </form>
+
+      <section id="results" style="margin-top: 1rem;"></section>
+    </main>
+
+    <script src="assets/js/quiz.js"></script>
+    <script>
+      const form = document.getElementById('quiz-form');
+      const questionsWrap = document.getElementById('questions');
+      const resultsWrap = document.getElementById('results');
+      const reloadBtn = document.getElementById('reload');
+
+      let currentQuestions = [];
+
+      const loadAndRender = async () => {
+        questionsWrap.innerHTML = '';
+        resultsWrap.innerHTML = '';
+        currentQuestions = await window.quiz.loadQuestions('assets/data/chemistry-full.json', 10);
+        currentQuestions.forEach((q, i) => window.quiz.renderQuestion(questionsWrap, q, i));
+      };
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const results = window.quiz.handleSubmit(form, currentQuestions);
+        window.quiz.showResults(resultsWrap, results, currentQuestions);
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+      });
+
+      reloadBtn.addEventListener('click', () => loadAndRender());
+      document.addEventListener('reload-questions', () => loadAndRender());
+
+      // initial load
+      loadAndRender();
+    </script>
+  </body>
+</html>
